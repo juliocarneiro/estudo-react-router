@@ -3,7 +3,7 @@ import Routes from './routes'
 import Menu from '../template/menu'
 
 export default props => (
-    <div className="container">
+    <div className="">
         <Menu />
         <Routes />
     </div>
