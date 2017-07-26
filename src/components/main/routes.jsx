@@ -4,7 +4,7 @@ import { Router, Route, Redirect, hashHistory } from 'react-router'
 import Home from '../main/home'
 import About from '../about/about'
 import Todo from '../todo/todo'
-import NotFound from '../main/notfound'
+import NotFound from '../main/404'
 
 export default props => (
     <Router history={hashHistory}>
